@@ -1,0 +1,59 @@
+{
+  "id": "ed745655-d346-47fe-91dd-738773667a3f",
+  "version": "2.0",
+  "name": "Test file Upload",
+  "url": "https://churnzero.damo1884.repl.co",
+  "tests": [{
+    "id": "6b87f5cf-ceb7-44fa-a9d8-f7023ae5e0a8",
+    "name": "Upload",
+    "commands": [{
+      "id": "93753dc8-eef3-406f-b5e8-db3b3113adeb",
+      "comment": "",
+      "command": "open",
+      "target": "/upload.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53ed60b2-edf1-41af-8ba3-6eed05f916d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1054",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0af69bd-abce-4040-b180-41ef45e7be0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=image-file",
+      "targets": [
+        ["id=image-file", "id"],
+        ["css=#image-file", "css:finder"],
+        ["xpath=//input[@id='image-file']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c99b4261-1925-4ddd-9e93-2251ebf4e7e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=image-file",
+      "targets": [
+        ["id=image-file", "id"],
+        ["css=#image-file", "css:finder"],
+        ["xpath=//input[@id='image-file']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\debug.png"
+    }]
+  }],
+  "suites": [{
+    "id": "e1da90bf-08d8-4fa3-923c-7a4c3027f779",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6b87f5cf-ceb7-44fa-a9d8-f7023ae5e0a8"]
+  }],
+  "urls": ["https://churnzero.damo1884.repl.co/"],
+  "plugins": []
+}
